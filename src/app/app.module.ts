@@ -9,13 +9,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoaderComponent } from './shared/loader/loader.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
-import { NotAllowedComponent } from './pages/not-allowed/not-allowed.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     LoaderComponent,
-    NotAllowedComponent,
   ],
   imports: [
     BrowserAnimationsModule,
