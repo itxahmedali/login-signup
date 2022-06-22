@@ -1,0 +1,16 @@
+textarea{
+    width: 100%;
+    margin: 0 auto;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 10px;
+    transition: 0.5s all ease-in-out;
+    resize: none;
+}
+h1,p,textarea{
+  color: #fff;
+}
+p{
+  font-size: 20px;
+}
